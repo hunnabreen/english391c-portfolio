@@ -27,8 +27,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
-  
+  background-color: #000;
+  max-width:100%;
 }
 
 body {
@@ -44,9 +44,9 @@ body {
   background-image: url(images/sphere.png);
   background-position: center;
 }
-
-.cover-container {
-  max-width: 42em;
+/*change to fluid*/
+.container-fluid {
+  max-width: 100%;
 }
 
 
@@ -55,6 +55,7 @@ body {
  */
 .masthead {
   margin-bottom: 2rem;
+  margin-top:1rem;
 }
 
 .masthead-brand {
@@ -62,16 +63,19 @@ body {
 }
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 50, 50, .4);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+  font-size: 1.8rem;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 50, 50, .4);
+  text-shadow:3px 3px 5px #000000;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -79,11 +83,12 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  color: #ffcc33;
   border-bottom-color: #ffcc33;
+  text-shadow: 3px 3px 5px #000000, 3px 3px 5px #ff0000;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 50em) {
   .masthead-brand {
     float: center;
   }
@@ -126,16 +131,37 @@ body {
     font-family: 'Orbitron', sans-serif;
     color:#ffcc33;
     justify-content: center;
-    padding-bottom: 3rem; 
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 1.5rem;
+    font-size: 3.7rem;
+    text-shadow: 3px 3px 5px #000000, 3px 3px 5px #ff0000;
+}
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 3px 3px 5px #000000, 3px 3px 5px #ff0000;
+    color:#ffcc33;
 }
 
 .list-group-item{
-    background-color: #f44271;
+    background-color: #ff1a1a;
 }
 .list-group-item-secondary{
-    background-color: #31b77b;
+    background-color: #ffcc33;
     color:#fff;
 }
+
+.list-group-item-text, .list-group-item-heading{
+    text-shadow: 1px 1px 5px #000000, 1px 1px 5px #0000ff;
+}
+
+.list-group-item:hover{
+    color:#0033cc;
+    background: linear-gradient(to bottom right,#ff1a1a, #ffcc33);
+    box-shadow: 0px 0px 5px 7px #000;
+}
+
 
 .row{
     justify-content: center;
