@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+	   font-family: Arial;
+       background-image: url(../../portfolio/images/sphere.png)
+	}
+	h1{
+	  color:white;
+	  background-color: #FFC300;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-family: 'Lobster', cursive;
+	}
+	  p{
+		  color:#ffffff;
+          padding-left: 20px;
+		  padding-right: 20px;
+          line-height: 1.6em;
+          font-family: "Courier New", Courier, monospace;
+	  }
+	h2{
+	  padding: 20px;
+	  background-color: #FFC300;
+    }
+	h3{
+	  padding: 20px;
+	  background-color: #FFC300;
+	}
+a:link{
+    color:#FFC300;
+    text-decoration: none;
+}
+a:visited{
+    color:rebeccapurple;
+}
+a:hover{
+    color: #C70039;
+    text-decoration: underline;
+}
+a:active{
+    color: rebeccapurple;
+}

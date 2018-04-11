@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+	   font-family: Arial;
+       background-image: url(../portfolio/images/sphere.png);
+       background-position: center;
+       max-width: 80%;
+	}
+	h1{
+	  color:#ffffff;
+	  background-color: #FFC300;
+	}
+	  p{
+          color:#ffffff;
+		  padding-left: 20px;
+		  padding-right: 20px;
+          line-height: 1.6em;
+	  }
+	h2{
+	  padding: 20px;
+	  background-color: #FFC300;
+	  }
+	h3{
+	  padding: 20px;
+	  background-color: #FFC300;
+	}
+

@@ -1,0 +1,51 @@
+
+body{
+    color:#000000;
+    background-image:url(../../portfolio/images/sphere.png)
+}
+
+p{
+    border-style:dashed;
+    border-width:1px;
+    border-color:#ff0000;
+    background-color:#ffcc33;
+    padding:20px;
+}
+
+h1, h2{
+    color:#ffcc33;
+    font-family: 'Shadows Into Light', cursive;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+}
+
+
+a.button:link{
+    color:#ff0000;
+    border: 1px solid #ff0000;
+    background-color:#fff3fc;
+    padding:10px;
+    position: relative;
+    bottom:19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.button:active{
+    color: #008b8b;
+}
+
+a.button:visited{
+    color:#03d2e1;
+    border:1px solid #03d2e1;
+    background-color:#E0ECED;
+}
+a.button:hover{
+    color: #008b8b;
+    border:1px solid #008b8b;
+    background-color:#e0eced;
+}
