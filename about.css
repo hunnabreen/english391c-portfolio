@@ -123,7 +123,8 @@ body {
 */
 .lead{
     padding-top: 2rem;
-    font-size: 2rem;
+
+    font-size: 1.6rem;
     padding: 0.1rem;
     line-height: 2.2rem;
 }
@@ -177,8 +178,16 @@ h2{
     float: none;
 }
 
-.jumbotron{
+.container{
     background: linear-gradient(to bottom right,#ff1a1a, #ffcc33);
     border-radius: 30px;
     box-shadow: 0px 0px 5px 7px #000;
+    max-width: 60%;
+}
+.display-4{
+  padding-top: 1rem;   
+}
+
+.bottom{
+    padding-bottom: 1rem;
 }

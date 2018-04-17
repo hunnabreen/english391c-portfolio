@@ -67,7 +67,7 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   font-weight: 700;
-  color: rgba(255, 50, 50, .4);
+  color: rgb(255, 50, 50);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
   font-size:1.8rem;
@@ -111,6 +111,7 @@ body {
   font-weight: 700;
   font-size: 2.5rem;
   margin-top: 4rem;
+  justify-content: center;
 }
 
 
@@ -148,6 +149,7 @@ body {
     letter-spacing: 1.2rem;
     float: center;
     padding-top: 2rem;
+    
 }
 
 .btn-outline-warning:hover{
@@ -159,7 +161,8 @@ body {
     width:304px;
     height:304px;
     justify-content: left;
-    box-shadow: 0px 0px 8px 9px #111111 
+    box-shadow: 0px 0px 8px 9px #111111;
+    margin-bottom: 0.5rem;
 }
 
 
