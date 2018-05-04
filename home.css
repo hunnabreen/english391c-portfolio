@@ -16,7 +16,7 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
-  border: .05rem solid #fff;
+  
 }
 
 
@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #000;
   max-width: 100%;
 }
 
@@ -67,7 +67,7 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   font-weight: 700;
-  color: rgb(255, 50, 50);
+  color: #51f194;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
   font-size:1.8rem;
@@ -84,8 +84,8 @@ body {
 }
 
 .nav-masthead .active {
-  color: #ffcc33;
-  border-bottom-color: #ffcc33;
+  color: #f25294;
+  border-bottom-color: #51f194;
   text-shadow: 3px 3px 5px #000000, 3px 3px 5px #ff0000;
 }
 
@@ -110,7 +110,7 @@ body {
   padding: 3rem 5rem;
   font-weight: 700;
   font-size: 2.5rem;
-  margin-top: 4rem;
+  
   justify-content: center;
 }
 
@@ -143,19 +143,19 @@ body {
 
 
 .btn-outline-warning{
-    box-shadow: 0px 0px 8px 12px #888888;
+    box-shadow: 0px 0px 8px 12px #51f194;
     text-shadow: 3px 3px 5px #000000, 3px 3px 5px #ff0000; 
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 1.2rem;
     float: center;
-    padding-top: 2rem;
+    padding-bottom: 2rem;
     
 }
 
 .btn-outline-warning:hover{
     color:#0033cc;
-    background: linear-gradient(to bottom right,#ff1a1a, #ffcc33);
-    box-shadow: 0px 0px 8px 15px #ffcc33;
+    background: linear-gradient(to bottom right,#51f194, #f25294);
+    box-shadow: 0px 0px 8px 15px #f25294;
 }
 .rounded-circle{
     width:304px;
